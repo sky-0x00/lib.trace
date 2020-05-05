@@ -13,13 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="units">
+      <UniqueIdentifier>{a0ee4bf5-95f4-4c02-b51f-b1864d6fa0c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\units\macro-defs.h">
+      <Filter>units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\units\system-types.h">
+      <Filter>units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\units\system-routines.h">
+      <Filter>units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\units\string.h">
+      <Filter>units</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +43,12 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\units\string.cpp">
+      <Filter>units</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
